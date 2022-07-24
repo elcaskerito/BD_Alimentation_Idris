@@ -1,0 +1,11 @@
+1- exécuter 
+
+=>crontab -e
+
+
+ensuite
+
+
+2 - 
+
+=> 00 00 * * * mysqlcheck --user=root --password=TopSecret_1998@  --extended --auto-repair --all-databases && mysqlcheck --user=root --password=TopSecret_1998@ --analyze --all-databases;
